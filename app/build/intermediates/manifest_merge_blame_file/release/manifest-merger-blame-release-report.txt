@@ -1,0 +1,170 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.myapplication"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/almahfuz/Desktop/AndroidTraining/LuVentsAdmin/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/Users/almahfuz/Desktop/AndroidTraining/LuVentsAdmin/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/almahfuz/Desktop/AndroidTraining/LuVentsAdmin/app/src/main/AndroidManifest.xml:5:5-67
+11-->/Users/almahfuz/Desktop/AndroidTraining/LuVentsAdmin/app/src/main/AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->/Users/almahfuz/Desktop/AndroidTraining/LuVentsAdmin/app/src/main/AndroidManifest.xml:6:5-80
+12-->/Users/almahfuz/Desktop/AndroidTraining/LuVentsAdmin/app/src/main/AndroidManifest.xml:6:22-77
+13
+14    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+15    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->[com.google.firebase:firebase-database:19.2.0] /Users/almahfuz/.gradle/caches/transforms-2/files-2.1/1b13ddd0979a31d5382231a327fe44a7/firebase-database-19.2.0/AndroidManifest.xml:25:5-79
+16-->[com.google.firebase:firebase-database:19.2.0] /Users/almahfuz/.gradle/caches/transforms-2/files-2.1/1b13ddd0979a31d5382231a327fe44a7/firebase-database-19.2.0/AndroidManifest.xml:25:22-76
+17
+18    <application
+18-->/Users/almahfuz/Desktop/AndroidTraining/LuVentsAdmin/app/src/main/AndroidManifest.xml:8:5-33:19
+19        android:allowBackup="true"
+19-->/Users/almahfuz/Desktop/AndroidTraining/LuVentsAdmin/app/src/main/AndroidManifest.xml:9:9-35
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.1.0] /Users/almahfuz/.gradle/caches/transforms-2/files-2.1/331630a23dfa1f0594bcf54d5352aa36/core-1.1.0/AndroidManifest.xml:24:18-86
+21        android:fullBackupContent="true"
+21-->/Users/almahfuz/Desktop/AndroidTraining/LuVentsAdmin/app/src/main/AndroidManifest.xml:10:9-41
+22        android:icon="@mipmap/ic_launcher"
+22-->/Users/almahfuz/Desktop/AndroidTraining/LuVentsAdmin/app/src/main/AndroidManifest.xml:11:9-43
+23        android:label="@string/app_name"
+23-->/Users/almahfuz/Desktop/AndroidTraining/LuVentsAdmin/app/src/main/AndroidManifest.xml:12:9-41
+24        android:roundIcon="@mipmap/ic_launcher_round"
+24-->/Users/almahfuz/Desktop/AndroidTraining/LuVentsAdmin/app/src/main/AndroidManifest.xml:13:9-54
+25        android:supportsRtl="true"
+25-->/Users/almahfuz/Desktop/AndroidTraining/LuVentsAdmin/app/src/main/AndroidManifest.xml:14:9-35
+26        android:theme="@style/AppTheme" >
+26-->/Users/almahfuz/Desktop/AndroidTraining/LuVentsAdmin/app/src/main/AndroidManifest.xml:15:9-40
+27        <activity android:name="com.example.myapplication.activities.MainActivity" >
+27-->/Users/almahfuz/Desktop/AndroidTraining/LuVentsAdmin/app/src/main/AndroidManifest.xml:16:9-18:20
+27-->/Users/almahfuz/Desktop/AndroidTraining/LuVentsAdmin/app/src/main/AndroidManifest.xml:16:19-58
+28        </activity>
+29        <activity android:name="com.example.myapplication.activities.UserRegInfoActivity" />
+29-->/Users/almahfuz/Desktop/AndroidTraining/LuVentsAdmin/app/src/main/AndroidManifest.xml:19:9-68
+29-->/Users/almahfuz/Desktop/AndroidTraining/LuVentsAdmin/app/src/main/AndroidManifest.xml:19:19-65
+30        <activity android:name="com.example.myapplication.activities.ProfileEditActivity" />
+30-->/Users/almahfuz/Desktop/AndroidTraining/LuVentsAdmin/app/src/main/AndroidManifest.xml:20:9-68
+30-->/Users/almahfuz/Desktop/AndroidTraining/LuVentsAdmin/app/src/main/AndroidManifest.xml:20:19-65
+31        <activity android:name="com.example.myapplication.activities.SingleScheduleActivity" />
+31-->/Users/almahfuz/Desktop/AndroidTraining/LuVentsAdmin/app/src/main/AndroidManifest.xml:21:9-71
+31-->/Users/almahfuz/Desktop/AndroidTraining/LuVentsAdmin/app/src/main/AndroidManifest.xml:21:19-68
+32        <activity android:name="com.example.myapplication.activities.CommentsActivity" />
+32-->/Users/almahfuz/Desktop/AndroidTraining/LuVentsAdmin/app/src/main/AndroidManifest.xml:22:9-65
+32-->/Users/almahfuz/Desktop/AndroidTraining/LuVentsAdmin/app/src/main/AndroidManifest.xml:22:19-62
+33        <activity android:name="com.example.myapplication.activities.SingleEventDetails" />
+33-->/Users/almahfuz/Desktop/AndroidTraining/LuVentsAdmin/app/src/main/AndroidManifest.xml:23:9-67
+33-->/Users/almahfuz/Desktop/AndroidTraining/LuVentsAdmin/app/src/main/AndroidManifest.xml:23:19-64
+34        <activity android:name="com.example.myapplication.activities.Bottom_Navigation" />
+34-->/Users/almahfuz/Desktop/AndroidTraining/LuVentsAdmin/app/src/main/AndroidManifest.xml:24:9-66
+34-->/Users/almahfuz/Desktop/AndroidTraining/LuVentsAdmin/app/src/main/AndroidManifest.xml:24:19-63
+35        <activity android:name="com.example.myapplication.activities.SplashScreenActivity" >
+35-->/Users/almahfuz/Desktop/AndroidTraining/LuVentsAdmin/app/src/main/AndroidManifest.xml:25:9-32:20
+35-->/Users/almahfuz/Desktop/AndroidTraining/LuVentsAdmin/app/src/main/AndroidManifest.xml:25:19-66
+36            <intent-filter>
+36-->/Users/almahfuz/Desktop/AndroidTraining/LuVentsAdmin/app/src/main/AndroidManifest.xml:26:13-31:29
+37                <action android:name="android.intent.action.MAIN" />
+37-->/Users/almahfuz/Desktop/AndroidTraining/LuVentsAdmin/app/src/main/AndroidManifest.xml:27:17-69
+37-->/Users/almahfuz/Desktop/AndroidTraining/LuVentsAdmin/app/src/main/AndroidManifest.xml:27:25-66
+38                <action android:name="android.intent.action.VIEW" />
+38-->/Users/almahfuz/Desktop/AndroidTraining/LuVentsAdmin/app/src/main/AndroidManifest.xml:28:17-69
+38-->/Users/almahfuz/Desktop/AndroidTraining/LuVentsAdmin/app/src/main/AndroidManifest.xml:28:25-66
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->/Users/almahfuz/Desktop/AndroidTraining/LuVentsAdmin/app/src/main/AndroidManifest.xml:30:17-77
+40-->/Users/almahfuz/Desktop/AndroidTraining/LuVentsAdmin/app/src/main/AndroidManifest.xml:30:27-74
+41            </intent-filter>
+42        </activity>
+43
+44        <service
+44-->[com.google.firebase:firebase-database:19.2.0] /Users/almahfuz/.gradle/caches/transforms-2/files-2.1/1b13ddd0979a31d5382231a327fe44a7/firebase-database-19.2.0/AndroidManifest.xml:29:9-35:19
+45            android:name="com.google.firebase.components.ComponentDiscoveryService"
+45-->[com.google.firebase:firebase-database:19.2.0] /Users/almahfuz/.gradle/caches/transforms-2/files-2.1/1b13ddd0979a31d5382231a327fe44a7/firebase-database-19.2.0/AndroidManifest.xml:30:13-84
+46            android:directBootAware="true"
+46-->[com.google.firebase:firebase-common:19.3.0] /Users/almahfuz/.gradle/caches/transforms-2/files-2.1/c2e1ea35f54fd74396a5e14bad7d423b/jetified-firebase-common-19.3.0/AndroidManifest.xml:34:13-43
+47            android:exported="false" >
+47-->[com.google.firebase:firebase-database:19.2.0] /Users/almahfuz/.gradle/caches/transforms-2/files-2.1/1b13ddd0979a31d5382231a327fe44a7/firebase-database-19.2.0/AndroidManifest.xml:31:13-37
+48            <meta-data
+48-->[com.google.firebase:firebase-database:19.2.0] /Users/almahfuz/.gradle/caches/transforms-2/files-2.1/1b13ddd0979a31d5382231a327fe44a7/firebase-database-19.2.0/AndroidManifest.xml:32:13-34:85
+49                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+49-->[com.google.firebase:firebase-database:19.2.0] /Users/almahfuz/.gradle/caches/transforms-2/files-2.1/1b13ddd0979a31d5382231a327fe44a7/firebase-database-19.2.0/AndroidManifest.xml:33:17-109
+50                android:value="com.google.firebase.components.ComponentRegistrar" />
+50-->[com.google.firebase:firebase-database:19.2.0] /Users/almahfuz/.gradle/caches/transforms-2/files-2.1/1b13ddd0979a31d5382231a327fe44a7/firebase-database-19.2.0/AndroidManifest.xml:34:17-82
+51            <meta-data
+51-->[com.google.firebase:firebase-storage:19.1.0] /Users/almahfuz/.gradle/caches/transforms-2/files-2.1/638a888dc69abcf1f17dc65c27bf54c8/firebase-storage-19.1.0/AndroidManifest.xml:33:13-35:85
+52                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+52-->[com.google.firebase:firebase-storage:19.1.0] /Users/almahfuz/.gradle/caches/transforms-2/files-2.1/638a888dc69abcf1f17dc65c27bf54c8/firebase-storage-19.1.0/AndroidManifest.xml:34:17-107
+53                android:value="com.google.firebase.components.ComponentRegistrar" />
+53-->[com.google.firebase:firebase-storage:19.1.0] /Users/almahfuz/.gradle/caches/transforms-2/files-2.1/638a888dc69abcf1f17dc65c27bf54c8/firebase-storage-19.1.0/AndroidManifest.xml:35:17-82
+54            <meta-data
+54-->[com.google.firebase:firebase-auth:19.2.0] /Users/almahfuz/.gradle/caches/transforms-2/files-2.1/1569b356ae21c59997606b87853bf436/firebase-auth-19.2.0/AndroidManifest.xml:36:13-38:85
+55                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+55-->[com.google.firebase:firebase-auth:19.2.0] /Users/almahfuz/.gradle/caches/transforms-2/files-2.1/1569b356ae21c59997606b87853bf436/firebase-auth-19.2.0/AndroidManifest.xml:37:17-109
+56                android:value="com.google.firebase.components.ComponentRegistrar" />
+56-->[com.google.firebase:firebase-auth:19.2.0] /Users/almahfuz/.gradle/caches/transforms-2/files-2.1/1569b356ae21c59997606b87853bf436/firebase-auth-19.2.0/AndroidManifest.xml:38:17-82
+57            <meta-data
+57-->[com.google.firebase:firebase-firestore:21.3.1] /Users/almahfuz/.gradle/caches/transforms-2/files-2.1/626405d9fbb381b715ed6530d69d8068/jetified-firebase-firestore-21.3.1/AndroidManifest.xml:20:13-22:85
+58                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+58-->[com.google.firebase:firebase-firestore:21.3.1] /Users/almahfuz/.gradle/caches/transforms-2/files-2.1/626405d9fbb381b715ed6530d69d8068/jetified-firebase-firestore-21.3.1/AndroidManifest.xml:21:17-111
+59                android:value="com.google.firebase.components.ComponentRegistrar" />
+59-->[com.google.firebase:firebase-firestore:21.3.1] /Users/almahfuz/.gradle/caches/transforms-2/files-2.1/626405d9fbb381b715ed6530d69d8068/jetified-firebase-firestore-21.3.1/AndroidManifest.xml:22:17-82
+60        </service>
+61
+62        <activity
+62-->[com.google.firebase:firebase-auth:19.2.0] /Users/almahfuz/.gradle/caches/transforms-2/files-2.1/1569b356ae21c59997606b87853bf436/firebase-auth-19.2.0/AndroidManifest.xml:24:9-31:50
+63            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+63-->[com.google.firebase:firebase-auth:19.2.0] /Users/almahfuz/.gradle/caches/transforms-2/files-2.1/1569b356ae21c59997606b87853bf436/firebase-auth-19.2.0/AndroidManifest.xml:25:13-85
+64            android:excludeFromRecents="true"
+64-->[com.google.firebase:firebase-auth:19.2.0] /Users/almahfuz/.gradle/caches/transforms-2/files-2.1/1569b356ae21c59997606b87853bf436/firebase-auth-19.2.0/AndroidManifest.xml:26:13-46
+65            android:exported="true"
+65-->[com.google.firebase:firebase-auth:19.2.0] /Users/almahfuz/.gradle/caches/transforms-2/files-2.1/1569b356ae21c59997606b87853bf436/firebase-auth-19.2.0/AndroidManifest.xml:27:13-36
+66            android:launchMode="singleTask"
+66-->[com.google.firebase:firebase-auth:19.2.0] /Users/almahfuz/.gradle/caches/transforms-2/files-2.1/1569b356ae21c59997606b87853bf436/firebase-auth-19.2.0/AndroidManifest.xml:28:13-44
+67            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+67-->[com.google.firebase:firebase-auth:19.2.0] /Users/almahfuz/.gradle/caches/transforms-2/files-2.1/1569b356ae21c59997606b87853bf436/firebase-auth-19.2.0/AndroidManifest.xml:29:13-102
+68            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+68-->[com.google.firebase:firebase-auth:19.2.0] /Users/almahfuz/.gradle/caches/transforms-2/files-2.1/1569b356ae21c59997606b87853bf436/firebase-auth-19.2.0/AndroidManifest.xml:30:13-72
+69
+70        <provider
+70-->[com.squareup.picasso:picasso:2.71828] /Users/almahfuz/.gradle/caches/transforms-2/files-2.1/5b9432a30d4904653e38179f483114e6/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
+71            android:name="com.squareup.picasso.PicassoProvider"
+71-->[com.squareup.picasso:picasso:2.71828] /Users/almahfuz/.gradle/caches/transforms-2/files-2.1/5b9432a30d4904653e38179f483114e6/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
+72            android:authorities="com.example.myapplication.com.squareup.picasso"
+72-->[com.squareup.picasso:picasso:2.71828] /Users/almahfuz/.gradle/caches/transforms-2/files-2.1/5b9432a30d4904653e38179f483114e6/jetified-picasso-2.71828/AndroidManifest.xml:10:13-72
+73            android:exported="false" />
+73-->[com.squareup.picasso:picasso:2.71828] /Users/almahfuz/.gradle/caches/transforms-2/files-2.1/5b9432a30d4904653e38179f483114e6/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
+74
+75        <activity
+75-->[com.google.android.gms:play-services-base:17.1.0] /Users/almahfuz/.gradle/caches/transforms-2/files-2.1/6d206c10dfcd7e4d261b33c292c090cb/play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+76            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+76-->[com.google.android.gms:play-services-base:17.1.0] /Users/almahfuz/.gradle/caches/transforms-2/files-2.1/6d206c10dfcd7e4d261b33c292c090cb/play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+77            android:exported="false"
+77-->[com.google.android.gms:play-services-base:17.1.0] /Users/almahfuz/.gradle/caches/transforms-2/files-2.1/6d206c10dfcd7e4d261b33c292c090cb/play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+78            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+78-->[com.google.android.gms:play-services-base:17.1.0] /Users/almahfuz/.gradle/caches/transforms-2/files-2.1/6d206c10dfcd7e4d261b33c292c090cb/play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+79
+80        <provider
+80-->[com.google.firebase:firebase-common:19.3.0] /Users/almahfuz/.gradle/caches/transforms-2/files-2.1/c2e1ea35f54fd74396a5e14bad7d423b/jetified-firebase-common-19.3.0/AndroidManifest.xml:26:9-30:39
+81            android:name="com.google.firebase.provider.FirebaseInitProvider"
+81-->[com.google.firebase:firebase-common:19.3.0] /Users/almahfuz/.gradle/caches/transforms-2/files-2.1/c2e1ea35f54fd74396a5e14bad7d423b/jetified-firebase-common-19.3.0/AndroidManifest.xml:27:13-77
+82            android:authorities="com.example.myapplication.firebaseinitprovider"
+82-->[com.google.firebase:firebase-common:19.3.0] /Users/almahfuz/.gradle/caches/transforms-2/files-2.1/c2e1ea35f54fd74396a5e14bad7d423b/jetified-firebase-common-19.3.0/AndroidManifest.xml:28:13-72
+83            android:exported="false"
+83-->[com.google.firebase:firebase-common:19.3.0] /Users/almahfuz/.gradle/caches/transforms-2/files-2.1/c2e1ea35f54fd74396a5e14bad7d423b/jetified-firebase-common-19.3.0/AndroidManifest.xml:29:13-37
+84            android:initOrder="100" />
+84-->[com.google.firebase:firebase-common:19.3.0] /Users/almahfuz/.gradle/caches/transforms-2/files-2.1/c2e1ea35f54fd74396a5e14bad7d423b/jetified-firebase-common-19.3.0/AndroidManifest.xml:30:13-36
+85
+86        <meta-data
+86-->[com.google.android.gms:play-services-basement:17.0.0] /Users/almahfuz/.gradle/caches/transforms-2/files-2.1/31287c63daeff9fc0586e5b1dc1557c9/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+87            android:name="com.google.android.gms.version"
+87-->[com.google.android.gms:play-services-basement:17.0.0] /Users/almahfuz/.gradle/caches/transforms-2/files-2.1/31287c63daeff9fc0586e5b1dc1557c9/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+88            android:value="@integer/google_play_services_version" />
+88-->[com.google.android.gms:play-services-basement:17.0.0] /Users/almahfuz/.gradle/caches/transforms-2/files-2.1/31287c63daeff9fc0586e5b1dc1557c9/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+89    </application>
+90
+91</manifest>

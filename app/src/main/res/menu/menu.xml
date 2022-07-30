@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+ <item android:id="@+id/editEventId"
+        android:title="Edit"
+        app:showAsAction="withText"
+
+        >
+
+    </item>
+<item android:id="@+id/edit_event_Delete"
+        android:title="Delete Event"
+        app:showAsAction="withText"
+
+        >
+
+    </item>
+
+    <item android:id="@+id/logOutId"
+        android:title="Log Out"
+
+        >
+
+    </item>
+
+</menu>

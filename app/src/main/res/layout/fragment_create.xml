@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/gradien_color2"
+
+    tools:context=".Fragments.CreateFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="80dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:layout_margin="20dp"
+
+            android:orientation="vertical"
+
+            >
+
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:padding="10dp"
+                 android:gravity="center"
+                 android:background="@drawable/bg_edit_right_left"
+                    android:layout_marginBottom="10dp"
+                 >
+
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="Hosted By:"
+                     android:textColor="@color/black"
+                     android:textStyle="bold"
+                     android:textSize="18sp"
+                     android:layout_marginEnd="20dp"
+                     >
+
+                 </TextView>
+                 <Spinner
+                     android:id="@+id/hostedSpinnerId"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:entries="@array/hostedBy"
+                     android:padding="10dp"
+                     android:dropDownSelector="@color/blue_grey_active"
+
+
+
+                     >
+
+                 </Spinner>
+
+             </LinearLayout>
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:id="@+id/imageviewid"
+                android:background="@drawable/bg_edit_right_left"
+                android:src="@drawable/ic_image_navy_24dp"
+
+                >
+
+            </ImageView>
+            <Button
+                android:id="@+id/choosephotoid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="15dp"
+                android:layout_margin="15dp"
+                android:text="Choose Photo"
+                android:backgroundTint="@color/app_color"
+                android:textColor="@color/white"
+                android:background="@drawable/bg_edit_right_left"
+                android:textAllCaps="false"
+                >
+
+            </Button>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Event Name:"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_marginTop="40dp"
+                android:textSize="18dp"
+
+                >
+
+            </TextView>
+
+            <EditText
+                android:id="@+id/eventnameEdittextId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:selectAllOnFocus="true"
+                android:gravity="start"
+                android:minHeight="50dp"
+                android:textColor="@color/black"
+                android:background="@drawable/bg_edit_right_left"
+                android:padding="12dp"
+                android:layout_marginTop="10dp"
+                android:maxLength="64"
+                android:hint="Add a short, clear name"
+
+                >
+
+            </EditText>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Address:"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_marginTop="40dp"
+                android:textSize="18sp"
+
+                >
+
+            </TextView>
+
+            <EditText
+                android:id="@+id/addressid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="include an address"
+                android:background="@drawable/bg_edit_right_left"
+                android:padding="12dp"
+
+                android:inputType="textEmailAddress"
+                android:layout_marginTop="10dp"
+
+                >
+
+            </EditText>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Description:"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_marginTop="40dp"
+                android:textSize="18dp"
+
+                >
+
+            </TextView>
+
+            <EditText
+                android:id="@+id/descriptionId"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:gravity="top"
+                android:background="@drawable/bg_edit_right_left"
+                android:padding="12dp"
+                android:layout_marginTop="10dp"
+                android:hint="Tell people what your event is about"
+                android:inputType="textMultiLine"
+
+                >
+
+            </EditText>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date/Time:"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_marginTop="40dp"
+                android:textSize="18dp"
+
+                >
+
+            </TextView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="5"
+                android:layout_margin="5sp"
+
+
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Starts"
+                    android:layout_weight="1"
+                    android:textSize="10sp"
+                    android:layout_gravity="center"
+                    >
+
+                </TextView>
+
+
+
+                <TextView
+                    android:id="@+id/dateid"
+
+                    android:layout_weight="2"
+                    android:layout_width="wrap_content"
+                    android:drawableEnd="@drawable/ic_date_range_black_24dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="10sp"
+
+                    android:background="@drawable/bg_circle_shape"
+                    android:padding="5dp"
+                    android:drawablePadding="5dp"
+                    android:focusableInTouchMode="false"
+                    android:focusable="true"
+                    android:gravity="center"
+                    android:layout_margin="5sp"
+                    android:clickable="true"
+
+
+                    >
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/timeid"
+                    android:layout_weight="2"
+                    android:drawableEnd="@drawable/ic_access_time_black_24dp"
+                    android:drawablePadding="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:focusable="true"
+
+                    android:textSize="10sp"
+                    android:focusableInTouchMode="false"
+                    android:background="@drawable/bg_circle_shape"
+                    android:padding="5dp"
+                    android:gravity="center"
+                    android:layout_margin="5sp"
+                    android:clickable="true"
+
+
+                    >
+
+                </TextView>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5sp"
+                android:weightSum="5"
+
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ends"
+                    android:textSize="10sp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    >
+
+                </TextView>
+
+
+
+                <TextView
+                    android:id="@+id/dateEndid"
+                    android:layout_weight="2"
+                    android:layout_width="wrap_content"
+                    android:drawableEnd="@drawable/ic_date_range_black_24dp"
+                    android:layout_height="wrap_content"
+                    android:focusable="true"
+                    android:focusableInTouchMode="false"
+                    android:background="@drawable/bg_circle_shape"
+                    android:padding="5dp"
+                    android:textSize="10sp"
+                    android:drawablePadding="5dp"
+                    android:gravity="center"
+                    android:layout_margin="5sp"
+                    android:clickable="true"
+
+
+                    >
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/timeEndid"
+                    android:layout_weight="2"
+                    android:focusable="true"
+                    android:focusableInTouchMode="false"
+                    android:drawableEnd="@drawable/ic_access_time_black_24dp"
+                    android:drawablePadding="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_circle_shape"
+                    android:padding="5dp"
+                    android:textSize="10sp"
+                    android:gravity="center"
+                    android:layout_margin="5sp"
+                    android:clickable="true"
+
+
+                    >
+
+                </TextView>
+
+
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/createEventbtnid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="18dp"
+                android:layout_margin="15dp"
+                android:text="Create Event"
+                android:textColor="@color/blue_grey_active"
+                android:textAllCaps="false"
+                android:background="@drawable/bg_circle_shape"
+                >
+
+            </Button>
+
+
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
